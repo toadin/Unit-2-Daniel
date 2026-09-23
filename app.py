@@ -12,10 +12,22 @@ print(f"Your sentence has {word_count} words.") """
 
 
 
-def number(x):
-    if x is (1,3,5,7,9):
-        print ('odd')
+""" def number(x):
+    if x % 2 == 0:
+        return "even"
     else:
-        print('even')
-x = input("Enter a number")
+        return "odd"
+x = int(input("Enter a number: "))
+print(f"Your number is {number(x)}.") """
 
+def service(x):
+    if x == "good":
+        return "20%"
+    elif x == "great":
+        return "25%"
+    elif x == "okay":
+        return "15%"
+    elif x == "bad":
+        return "0%"
+x = str(input("How was the service."))
+print(f"I will tip{service(x)}")
