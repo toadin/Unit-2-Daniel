@@ -42,6 +42,8 @@ def x(number):
 number = int(input("Enter a number: "))
 print(f"Your number is {x(number)}.")
 
+
+
     
 
 
